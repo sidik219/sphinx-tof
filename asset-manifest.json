@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sphinx-tof/static/css/main.a45c4cfa.css",
-    "main.js": "/sphinx-tof/static/js/main.89728938.js",
+    "main.js": "/sphinx-tof/static/js/main.9e81fe71.js",
     "static/media/sacrifice-2.PNG": "/sphinx-tof/static/media/sacrifice-2.a9b1cd45fc80b12f7da1.PNG",
     "static/media/bg-guild.jpg": "/sphinx-tof/static/media/bg-guild.e948463d0cce87e8240c.jpg",
     "static/media/sacrifice-3.JPG": "/sphinx-tof/static/media/sacrifice-3.dc1f0a2540c0188f0d2b.JPG",
@@ -21,10 +21,10 @@
     "static/media/discord.svg": "/sphinx-tof/static/media/discord.61d53db1792b72466025725963a88fbb.svg",
     "index.html": "/sphinx-tof/index.html",
     "main.a45c4cfa.css.map": "/sphinx-tof/static/css/main.a45c4cfa.css.map",
-    "main.89728938.js.map": "/sphinx-tof/static/js/main.89728938.js.map"
+    "main.9e81fe71.js.map": "/sphinx-tof/static/js/main.9e81fe71.js.map"
   },
   "entrypoints": [
     "static/css/main.a45c4cfa.css",
-    "static/js/main.89728938.js"
+    "static/js/main.9e81fe71.js"
   ]
 }

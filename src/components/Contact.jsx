@@ -57,7 +57,7 @@ const Contact = () => {
                     <p className='text-center text-2xl font-bold text-white'>DPS</p>
                     <div className='text-center font-medium'>
                         <p className='py-2 border-b mx-8 mt-4 text-white'>DEPUTY</p>
-                        <p className='py-2 border-b mx-8 text-white'>Bantai semuanya sampai tak tersisa.</p>
+                        <p className='py-2 border-b mx-8 text-white'>No Quote</p>
                         {/* <p className='py-2 border-b mx-8 text-white'>EXALTED#9375</p> */}
                     </div>
                     <button className='flex bg-[#bf1b47] hover:bg-[#f01c58] w-full rounded-xl font-medium mx-auto my-6 px-6 py-3 text-[white]'>
@@ -73,7 +73,7 @@ const Contact = () => {
                     <p className='text-center text-2xl font-bold text-white'>DPS</p>
                     <div className='text-center font-medium'>
                         <p className='py-2 border-b mx-8 mt-4 text-white'>CADRE</p>
-                        <p className='py-2 border-b mx-8 text-white'>Penjahat Kelamin</p>
+                        <p className='py-2 border-b mx-8 text-white'>No Quote</p>
                         {/* <p className='py-2 border-b mx-8 text-white'>Mineva#3524</p> */}
                     </div>
                     <button className='flex bg-[#bf1b47] hover:bg-[#f01c58] w-full rounded-xl font-medium mx-auto my-6 px-6 py-3 text-[white]'>
@@ -89,7 +89,7 @@ const Contact = () => {
                     <p className='text-center text-2xl font-bold text-white'>DPS</p>
                     <div className='text-center font-medium'>
                         <p className='py-2 border-b mx-8 mt-4 text-white'>CADRE</p>
-                        <p className='py-2 border-b mx-8 text-white'>Penjahat Kelamin</p>
+                        <p className='py-2 border-b mx-8 text-white'>No Quote</p>
                         {/* <p className='py-2 border-b mx-8 text-white'>Griseo#8295</p> */}
                     </div>
                     <button className='flex bg-[#bf1b47] hover:bg-[#f01c58] w-full rounded-xl font-medium mx-auto my-6 px-6 py-3 text-[white]'>
@@ -105,7 +105,7 @@ const Contact = () => {
                     <p className='text-center text-2xl font-bold text-white'>DPS</p>
                     <div className='text-center font-medium'>
                         <p className='py-2 border-b mx-8 mt-4 text-white'>CADRE</p>
-                        <p className='py-2 border-b mx-8 text-white'>Penjahat Kelamin</p>
+                        <p className='py-2 border-b mx-8 text-white'>No Quote</p>
                         {/* <p className='py-2 border-b mx-8 text-white'>Lethal#9659</p> */}
                     </div>
                     <button className='flex bg-[#bf1b47] hover:bg-[#f01c58] w-full rounded-xl font-medium mx-auto my-6 px-6 py-3 text-[white]'>
@@ -118,10 +118,10 @@ const Contact = () => {
                 <div className='w-full bg-[#19212a] shadow-xl flex flex-col p-4 my-4 rounded-xl hover:scale-105 duration-300 mx-auto'>
                     <img className='w-20 mx-auto mt-[-3rem] bg-transparent rounded-xl' src={Profil7} alt="/" />
                     <h2 className='text-xl font-bold text-center py-6 text-white'>Rail</h2>
-                    <p className='text-center text-2xl font-bold text-white'>DPS</p>
+                    <p className='text-center text-2xl font-bold text-white'>TANKER</p>
                     <div className='text-center font-medium'>
                         <p className='py-2 border-b mx-8 mt-4 text-white'>CADRE</p>
-                        <p className='py-2 border-b mx-8 text-white'>Penjahat Kelamin</p>
+                        <p className='py-2 border-b mx-8 text-white'>No Quote</p>
                         {/* <p className='py-2 border-b mx-8 text-white'>`﷽`#4647</p> */}
                     </div>
                     <button className='flex bg-[#bf1b47] hover:bg-[#f01c58] w-full rounded-xl font-medium mx-auto my-6 px-6 py-3 text-[white]'>
@@ -137,7 +137,7 @@ const Contact = () => {
                     <p className='text-center text-2xl font-bold text-white'>DPS</p>
                     <div className='text-center font-medium'>
                         <p className='py-2 border-b mx-8 mt-4 text-white'>CADRE</p>
-                        <p className='py-2 border-b mx-8 text-white'>Penjahat Kelamin</p>
+                        <p className='py-2 border-b mx-8 text-white'>No Quote</p>
                         {/* <p className='py-2 border-b mx-8 text-white'>Benks#0100</p> */}
                     </div>
                     <button className='flex bg-[#bf1b47] hover:bg-[#f01c58] w-full rounded-xl font-medium mx-auto my-6 px-6 py-3 text-[white]'>
@@ -153,12 +153,76 @@ const Contact = () => {
                     <p className='text-center text-2xl font-bold text-white'>DPS</p>
                     <div className='text-center font-medium'>
                         <p className='py-2 border-b mx-8 mt-4 text-white'>CADRE</p>
-                        <p className='py-2 border-b mx-8 text-white'>Penjahat Kelamin</p>
+                        <p className='py-2 border-b mx-8 text-white'>No Quote</p>
                         {/* <p className='py-2 border-b mx-8 text-white'>kimaruru#2187</p> */}
                     </div>
                     <button className='flex bg-[#bf1b47] hover:bg-[#f01c58] w-full rounded-xl font-medium mx-auto my-6 px-6 py-3 text-[white]'>
                         <p className='font-bold mx-auto flex'>
                             <img className='w-[30px] text-white mr-2' src={Discord} alt="/" />kimaruru#2187
+                        </p>
+                    </button>
+                </div>
+                {/* SEPULUH */}
+                <div className='w-full bg-[#19212a] shadow-xl flex flex-col p-4 my-4 rounded-xl hover:scale-105 duration-300 mx-auto'>
+                    <img className='w-20 mx-auto mt-[-3rem] bg-transparent rounded-xl' src={Profil9} alt="/" />
+                    <h2 className='text-xl font-bold text-center py-6 text-white'>N 7</h2>
+                    <p className='text-center text-2xl font-bold text-white'>DPS</p>
+                    <div className='text-center font-medium'>
+                        <p className='py-2 border-b mx-8 mt-4 text-white'>CADRE</p>
+                        <p className='py-2 border-b mx-8 text-white'>No Quote</p>
+                        {/* <p className='py-2 border-b mx-8 text-white'>C H AN#3777</p> */}
+                    </div>
+                    <button className='flex bg-[#bf1b47] hover:bg-[#f01c58] w-full rounded-xl font-medium mx-auto my-6 px-6 py-3 text-[white]'>
+                        <p className='font-bold mx-auto flex'>
+                            <img className='w-[30px] text-white mr-2' src={Discord} alt="/" />C H AN#3777
+                        </p>
+                    </button>
+                </div>
+                {/* SEBELAS */}
+                <div className='w-full bg-[#19212a] shadow-xl flex flex-col p-4 my-4 rounded-xl hover:scale-105 duration-300 mx-auto'>
+                    <img className='w-20 mx-auto mt-[-3rem] bg-transparent rounded-xl' src={Profil9} alt="/" />
+                    <h2 className='text-xl font-bold text-center py-6 text-white'>TOHA</h2>
+                    <p className='text-center text-2xl font-bold text-white'>DPS</p>
+                    <div className='text-center font-medium'>
+                        <p className='py-2 border-b mx-8 mt-4 text-white'>CADRE</p>
+                        <p className='py-2 border-b mx-8 text-white'>No Quote</p>
+                        {/* <p className='py-2 border-b mx-8 text-white'>FriendsWithBenefit#5640</p> */}
+                    </div>
+                    <button className='flex bg-[#bf1b47] hover:bg-[#f01c58] w-full rounded-xl font-medium mx-auto my-6 px-6 py-3 text-[white]'>
+                        <p className='font-bold mx-auto flex'>
+                            <img className='w-[30px] text-white mr-2' src={Discord} alt="/" />FriendsWithBenefit#5640
+                        </p>
+                    </button>
+                </div>
+                {/* DUABELAS */}
+                <div className='w-full bg-[#19212a] shadow-xl flex flex-col p-4 my-4 rounded-xl hover:scale-105 duration-300 mx-auto'>
+                    <img className='w-20 mx-auto mt-[-3rem] bg-transparent rounded-xl' src={Profil9} alt="/" />
+                    <h2 className='text-xl font-bold text-center py-6 text-white'>Violet</h2>
+                    <p className='text-center text-2xl font-bold text-white'>DPS</p>
+                    <div className='text-center font-medium'>
+                        <p className='py-2 border-b mx-8 mt-4 text-white'>CADRE</p>
+                        <p className='py-2 border-b mx-8 text-white'>No Quote</p>
+                        {/* <p className='py-2 border-b mx-8 text-white'>Ngiio#1101</p> */}
+                    </div>
+                    <button className='flex bg-[#bf1b47] hover:bg-[#f01c58] w-full rounded-xl font-medium mx-auto my-6 px-6 py-3 text-[white]'>
+                        <p className='font-bold mx-auto flex'>
+                            <img className='w-[30px] text-white mr-2' src={Discord} alt="/" />Ngiio#1101
+                        </p>
+                    </button>
+                </div>
+                {/* TIGABELAS */}
+                <div className='w-full bg-[#19212a] shadow-xl flex flex-col p-4 my-4 rounded-xl hover:scale-105 duration-300 mx-auto'>
+                    <img className='w-20 mx-auto mt-[-3rem] bg-transparent rounded-xl' src={Profil9} alt="/" />
+                    <h2 className='text-xl font-bold text-center py-6 text-white'>MizuAi</h2>
+                    <p className='text-center text-2xl font-bold text-white'>DPS</p>
+                    <div className='text-center font-medium'>
+                        <p className='py-2 border-b mx-8 mt-4 text-white'>CADRE</p>
+                        <p className='py-2 border-b mx-8 text-white'>No Quote</p>
+                        {/* <p className='py-2 border-b mx-8 text-white'>Mudya#6177</p> */}
+                    </div>
+                    <button className='flex bg-[#bf1b47] hover:bg-[#f01c58] w-full rounded-xl font-medium mx-auto my-6 px-6 py-3 text-[white]'>
+                        <p className='font-bold mx-auto flex'>
+                            <img className='w-[30px] text-white mr-2' src={Discord} alt="/" />Mudya#6177
                         </p>
                     </button>
                 </div>

@@ -19,27 +19,33 @@ const Request = () => {
             const EWE = {
                 "content": "Halo semua, izin gabung crew.",
                 "embeds": [{
+                    "color": "15548997",
                     "title": charName,
                     "author": {
-                        "name": discordName
+                        "name": discordName,
+                        "icon_url": 'https://i.imgur.com/kV9lZkI.gif'
                     },
-                    "description": mainRole,
                     "fields": [
                         {
-                            "name": 'CS',
-                            "value": cs
+                            "name": 'Main Role:',
+                            "value": mainRole
                         },
                         {
                             "name": '\u200B',
                             "value": '\u200B'
                         },
                         {
-                            "name": 'Critical',
+                            "name": 'CS:',
+                            "value": cs,
+                            "inline": true
+                        },
+                        {
+                            "name": 'Critical:',
                             "value": critical,
                             "inline": true
                         },
                         {
-                            "name": 'Element',
+                            "name": 'Element:',
                             "value": element,
                             "inline": true
                         },
@@ -47,7 +53,8 @@ const Request = () => {
                     "footer": {
                         // eslint-disable-next-line
                         "text": "Messages:" + " " + messages
-                    }
+                    },
+                    "timestamp": new Date().toISOString()
                 }]
             }
 

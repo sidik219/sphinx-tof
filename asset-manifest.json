@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sphinx-tof/static/css/main.f1c749dd.css",
-    "main.js": "/sphinx-tof/static/js/main.74b04071.js",
+    "main.js": "/sphinx-tof/static/js/main.2f6ae27f.js",
     "static/media/sacrifice-4.png": "/sphinx-tof/static/media/sacrifice-4.d92277047673d6f6d7f5.png",
     "static/media/sacrifice-3.png": "/sphinx-tof/static/media/sacrifice-3.1aef90b7126e8926ec95.png",
     "static/media/bg-guild.jpg": "/sphinx-tof/static/media/bg-guild.caa90163e55facb05ef8.jpg",
@@ -9,22 +9,14 @@
     "static/media/logo.png": "/sphinx-tof/static/media/logo.0056af3e3f79eeb93774.png",
     "static/media/sacrifice-1.png": "/sphinx-tof/static/media/sacrifice-1.e8592626c765098fde38.png",
     "static/media/sacrifice-2.png": "/sphinx-tof/static/media/sacrifice-2.e8592626c765098fde38.png",
-    "static/media/profil-1.png": "/sphinx-tof/static/media/profil-1.425574b413b93f646919.png",
-    "static/media/profil-2.png": "/sphinx-tof/static/media/profil-2.425574b413b93f646919.png",
-    "static/media/profil-3.png": "/sphinx-tof/static/media/profil-3.425574b413b93f646919.png",
-    "static/media/profil-4.png": "/sphinx-tof/static/media/profil-4.425574b413b93f646919.png",
-    "static/media/profil-5.png": "/sphinx-tof/static/media/profil-5.425574b413b93f646919.png",
-    "static/media/profil-6.png": "/sphinx-tof/static/media/profil-6.425574b413b93f646919.png",
-    "static/media/profil-7.png": "/sphinx-tof/static/media/profil-7.425574b413b93f646919.png",
-    "static/media/profil-8.png": "/sphinx-tof/static/media/profil-8.425574b413b93f646919.png",
-    "static/media/profil-9.png": "/sphinx-tof/static/media/profil-9.425574b413b93f646919.png",
+    "static/media/mia.png": "/sphinx-tof/static/media/mia.425574b413b93f646919.png",
     "static/media/discord.svg": "/sphinx-tof/static/media/discord.61d53db1792b72466025725963a88fbb.svg",
     "index.html": "/sphinx-tof/index.html",
     "main.f1c749dd.css.map": "/sphinx-tof/static/css/main.f1c749dd.css.map",
-    "main.74b04071.js.map": "/sphinx-tof/static/js/main.74b04071.js.map"
+    "main.2f6ae27f.js.map": "/sphinx-tof/static/js/main.2f6ae27f.js.map"
   },
   "entrypoints": [
     "static/css/main.f1c749dd.css",
-    "static/js/main.74b04071.js"
+    "static/js/main.2f6ae27f.js"
   ]
 }

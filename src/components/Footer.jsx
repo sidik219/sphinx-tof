@@ -7,8 +7,13 @@ const Footer = () => {
             <div className='max-w-[1450px] max-auto grid lg:grid-cols-2'>
                 <div className='lg:col-span-2 mx-auto'>
                     <div className='flex'>
+                        <p>Copyright © {new Date().getFullYear()}</p>
+                    </div>
+                </div>
+                <div className='lg:col-span-2 mx-auto'>
+                    <div className='flex'>
                         <p>Made By.</p>
-                        <img className='w-[25px] mx-px bg-transparent' src={Logo} alt="/"/>
+                        <img className='w-[25px] mx-px bg-transparent' src={Logo} alt="/" />
                         <p>Sacrifice Team</p>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sphinx-tof/static/css/main.718235c8.css",
-    "main.js": "/sphinx-tof/static/js/main.dc55e426.js",
+    "main.css": "/sphinx-tof/static/css/main.c43b2d96.css",
+    "main.js": "/sphinx-tof/static/js/main.f475ee64.js",
     "static/media/sacrifice-4.png": "/sphinx-tof/static/media/sacrifice-4.d92277047673d6f6d7f5.png",
     "static/media/sacrifice-3.png": "/sphinx-tof/static/media/sacrifice-3.1aef90b7126e8926ec95.png",
     "static/media/bg-guild.jpg": "/sphinx-tof/static/media/bg-guild.caa90163e55facb05ef8.jpg",
@@ -12,11 +12,11 @@
     "static/media/mia.png": "/sphinx-tof/static/media/mia.425574b413b93f646919.png",
     "static/media/discord.svg": "/sphinx-tof/static/media/discord.61d53db1792b72466025725963a88fbb.svg",
     "index.html": "/sphinx-tof/index.html",
-    "main.718235c8.css.map": "/sphinx-tof/static/css/main.718235c8.css.map",
-    "main.dc55e426.js.map": "/sphinx-tof/static/js/main.dc55e426.js.map"
+    "main.c43b2d96.css.map": "/sphinx-tof/static/css/main.c43b2d96.css.map",
+    "main.f475ee64.js.map": "/sphinx-tof/static/js/main.f475ee64.js.map"
   },
   "entrypoints": [
-    "static/css/main.718235c8.css",
-    "static/js/main.dc55e426.js"
+    "static/css/main.c43b2d96.css",
+    "static/js/main.f475ee64.js"
   ]
 }

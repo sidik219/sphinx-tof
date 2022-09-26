@@ -65,7 +65,7 @@ const Contact = () => {
                                         </div>
                                         {/* Chat Button */}
                                         <div className="max-w-[728px] mx-auto text-center mt-12">
-                                            <SendMessage scrollChat={scrollChat} />
+                                            {user ? <SendMessage scrollChat={scrollChat} /> : null}
                                         </div>
                                     </div>
                                     {/*footer*/}

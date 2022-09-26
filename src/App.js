@@ -6,7 +6,13 @@ import Request from './components/Request';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+// Firebase
+import {auth} from './firebase';
+import {useAuthState} from 'react-firebase-hooks/auth'
+
 function App() {
+  const [user] = useAuthState(auth)
+
   return (
     <div>
       <Navbar/>
@@ -14,7 +20,7 @@ function App() {
       <About/>
       <Request/>
       <Contact/>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { AiOutlineSwapRight } from 'react-icons/ai'
 import Sacrifice1 from '../assets/sacrifice-1.png'
 import Sacrifice2 from '../assets/sacrifice-2.png'
 import Sacrifice3 from '../assets/sacrifice-3.png'
@@ -9,7 +10,7 @@ const About = () => {
         <div id='about' className='w-full bg-white py-4 px-4'>
             <div className='mx-auto text-center flex flex-col justify-center items-center py-16'>
                 <h1 className='text-[#bf1b47] md:text-4xl sm:text-3xl text-2xl font-bold py-2 mx-auto drop-shadow-xl'>ABOUT CREW</h1>
-                <p className='md:text-2xl text-l text-slate-500 py-4'>Gak tahu gan, bebas gmna kalian aja.</p>
+                <p className='md:text-2xl text-l text-slate-500 py-4'>COMING SOON . . .</p>
             </div>
             <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
                 <img className='w-[500px] mx-auto my-4 drop-shadow-xl' src={Sacrifice1} alt="/" />
@@ -21,24 +22,16 @@ const About = () => {
                     <div className='px-2'>
                         <ul className='uppercase p-4'>
                             <li className='text-slate-500 font-bold flex'>
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                                </svg>No CS Requirement
+                                <AiOutlineSwapRight size={20} className="text-emerald-500 mr-2" />No CS Requirement
                             </li>
                             <li className='text-slate-500 font-bold flex'>
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                                </svg>Crew Mission & Donation <span className="text-xs p-1">(<span className='text-red-500'>Must do</span>)</span>
+                                <AiOutlineSwapRight size={20} className="text-emerald-500 mr-2" />Crew Mission & Donation <span className="text-xs p-1">(<span className='text-red-500'>Must do</span>)</span>
                             </li>
                             <li className='text-slate-500 font-bold flex'>
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                                </svg>JO, VR & FH With Crew
+                                <AiOutlineSwapRight size={20} className="text-emerald-500 mr-2" />JO, VR & FH With Crew
                             </li>
                             <li className='text-slate-500 font-bold flex'>
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                                </svg>Coming soon . . .
+                                <AiOutlineSwapRight size={20} className="text-emerald-500 mr-2" />Coming soon . . .
                             </li>
                         </ul>
                     </div>
@@ -48,24 +41,16 @@ const About = () => {
                     <div className='px-2'>
                         <ul className='uppercase p-4'>
                             <li className='text-slate-500 font-bold flex'>
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                                </svg>Base lvl [2]
+                                <AiOutlineSwapRight size={20} className="text-emerald-500 mr-2" />Base lvl [2]
                             </li>
                             <li className='text-slate-500 font-bold flex'>
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                                </svg>Treasury lvl [2]
+                                <AiOutlineSwapRight size={20} className="text-emerald-500 mr-2" />Treasury lvl [2]
                             </li>
                             <li className='text-slate-500 font-bold flex'>
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                                </svg>Store lvl [1]
+                                <AiOutlineSwapRight size={20} className="text-emerald-500 mr-2" />Store lvl [1]
                             </li>
                             <li className='text-slate-500 font-bold flex'>
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                                </svg>NSWF Channel
+                                <AiOutlineSwapRight size={20} className="text-emerald-500 mr-2" />NSWF Channel
                             </li>
                         </ul>
                     </div>

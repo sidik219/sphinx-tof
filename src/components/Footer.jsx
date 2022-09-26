@@ -14,7 +14,7 @@ const Footer = () => {
                     <div className='flex'>
                         <p>Made By.</p>
                         <img className='w-[25px] mx-px bg-transparent' src={Logo} alt="/" />
-                        <p>Sacrifice Team</p>
+                        <p>{process.env.REACT_APP_COPYRIGHT_SACRIFICE}</p>
                     </div>
                 </div>
             </div>

@@ -12,7 +12,6 @@ const Request = () => {
     const [critical, setCrit]       = useState("")
     const [element, setEle]         = useState("")
     const [messages, setMessages]   = useState("")
-    const [setLabel]                = useState("")
     
     const send = () => {
         if (charName && discordName && mainRole && cs && critical && element && messages) {
@@ -76,7 +75,7 @@ const Request = () => {
             })
 
         } else {
-            setLabel("Error Try Again!")
+            alert("❌Error try again! Don't forget to enter data first.")
         }
     }
 
@@ -92,7 +91,7 @@ const Request = () => {
                         {/* Sementara Non Active Email, Entah Buat Apaan :v */}
                         {/* <input className='p-3 flex w-full rounded-xl text-black' type="email" placeholder='Enter Email' /> */}
                         <button
-                            className='bg-[#bf1b47] hover:bg-[#f01c58] w-[215px] rounded-xl font-medium ml-4 my-6 px-6 py-3 text-[white] focus:outline-none focus:ring focus:ring-[#5865f2] drop-shadow-xl'
+                            className='animate-pulse bg-[#bf1b47] hover:bg-[#f01c58] w-[215px] rounded-xl font-medium ml-4 my-6 px-6 py-3 text-[white] focus:outline-none focus:ring focus:ring-[#5865f2] drop-shadow-xl'
                             type='button'
                             onClick={() => setShowModal(true)}
                         >

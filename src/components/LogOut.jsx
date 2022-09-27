@@ -3,6 +3,7 @@ import {auth} from '../firebase'
 import {AiOutlineLogout} from 'react-icons/ai'
 
 const LogOut = () => {
+    // eslint-disable-next-line
     const signOut = () => {
         signOut(auth)
     }
@@ -10,7 +11,7 @@ const LogOut = () => {
     return (
         <div>
             <button
-                className="flex bg-[#bf1b47] hover:bg-[#f01c58] text-white active:bg-gray-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none ease-linear transition-all duration-150"
+                className="flex bg-[#bf1b47] hover:bg-[#f01c58] text-white active:bg-gray-600 font-bold uppercase text-sm px-6 py-3 rounded-xl shadow hover:shadow-lg outline-none focus:outline-none ease-linear transition-all duration-150"
                 type="button"
                 onClick={() => auth.signOut()}
             >

@@ -5,8 +5,8 @@ import {addDoc, collection, serverTimestamp} from 'firebase/firestore'
 
 const style = {
     form: `h-14 w-full max-w-[728px] flex text-md absolute bottom-0`,
-    input: `w-[72%] max-w-[728px] text-md p-3 bg-gray-900 text-white outline-none border-none`,
-    button: `w-[15%] flex bg-emerald-500 hover:bg-emerald-400 active:bg-gray-600 text-white font-bold p-4`,
+    input: `w-[72%] max-w-[728px] text-md p-3 bg-gray-900 text-white outline-none border-none rounded-tl-xl rounded-bl-xl`,
+    button: `w-[15%] flex bg-emerald-500 hover:bg-emerald-400 active:bg-gray-600 text-white font-bold p-4 rounded-tr-xl rounded-br-xl`,
 }
 
 const SendMessage = ({scrollChat}) => {

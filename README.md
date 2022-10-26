@@ -1,4 +1,4 @@
-# ![logo](./src/assets/logo.png) Sacrifice
+# <img src="https://github.com/sidik219/sphinx-tof/blob/main/src/assets/logo-guild.png" width="350" height="100" />
 
 ## Recruitment Crew
 

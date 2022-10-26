@@ -29,7 +29,7 @@ yarn start
 
 ## License
 
-[GNU AGPL license](https://github.com/sidik219/sphinx-tof/blob/main/LICENSE.md).
+License [GNU AGPL license](https://github.com/sidik219/sphinx-tof/blob/main/LICENSE.md).
 
 ## Author
 

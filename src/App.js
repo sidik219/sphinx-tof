@@ -19,7 +19,7 @@ function App() {
   useEffect(() => {
     const messaging = getMessaging(firebase);
       getToken(messaging, {
-        vapidKey: 'BA2VaUIRGfMy2k0fSga_h11I9_9T_L60HOz2v83QZAx2rHf6hAk4yd-9YCW_ceZRIescMS09LyKeTURHc3HLNGE'
+        vapidKey: process.env.REACT_APP_FIREBASE_VAPID_KEY
       }).then((currentToken) => {
         if (currentToken) {
           // Send the token to your server and update the UI if necessary

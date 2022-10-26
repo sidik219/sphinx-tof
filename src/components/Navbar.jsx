@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { AiOutlineClose, AiOutlineSlack } from 'react-icons/ai'
 import Logo from '../assets/logo-guild.png'
-import ScrollToTop from "react-scroll-to-top";
+import ScrollToTop from 'react-scroll-to-top'
 
 const Navbar = () => {
     const [nav, setNav] = useState(true)
@@ -35,7 +35,7 @@ const Navbar = () => {
                     <a className='text-xl' href="#dev">Dev Team</a>
                 </li>
             </ul>
-            <div onClick={handleNav} className='block md:hidden fixed z-50 bg-[#bf1b47] rounded-md h-[40px] w-[40px] top-8 right-7'>
+            <div onClick={handleNav} className='block md:hidden fixed z-50 bg-[#bf1b47] rounded-md h-[40px] w-[40px] top-8 right-10'>
                 {!nav ? <AiOutlineClose size={40} /> : <AiOutlineSlack size={40} />}
             </div>
             <div className={!nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-slate-700 bg-gray-800 ease-in-out duration-500 z-50' : 'fixed left-[-100%]'}>

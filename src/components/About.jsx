@@ -13,10 +13,10 @@ const About = () => {
                 <p className='md:text-2xl text-l text-slate-500 py-4'>COMING SOON . . .</p>
             </div>
             <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
-                <img className='w-[500px] mx-auto my-4 drop-shadow-xl' src={Sacrifice1} alt="/" />
-                <img className='w-[500px] mx-auto my-4 drop-shadow-xl' src={Sacrifice2} alt="/" />
-                <img className='w-[500px] mx-auto my-4 drop-shadow-xl' src={Sacrifice3} alt="/" />
-                <img className='w-[500px] mx-auto my-4 drop-shadow-xl' src={Sacrifice4} alt="/" />
+                <img className='w-[500px] mx-auto my-4 drop-shadow-xl hover:scale-105 duration-300' src={Sacrifice1} alt="/" />
+                <img className='w-[500px] mx-auto my-4 drop-shadow-xl hover:scale-105 duration-300' src={Sacrifice2} alt="/" />
+                <img className='w-[500px] mx-auto my-4 drop-shadow-xl hover:scale-105 duration-300' src={Sacrifice3} alt="/" />
+                <img className='w-[500px] mx-auto my-4 drop-shadow-xl hover:scale-105 duration-300' src={Sacrifice4} alt="/" />
                 <div className='flex flex-col justify-center md:mx-auto md:my-8'>
                     <p className='text-[#bf1b47] md:text-4xl sm:text-3xl text-2xl font-bold py-2 md:mx-auto drop-shadow-xl'>CREW INFORMATION</p>
                     <div className='px-2'>
@@ -50,7 +50,7 @@ const About = () => {
                                 <AiOutlineSwapRight size={20} className="text-emerald-500 mr-2" />Store lvl [1]
                             </li>
                             <li className='text-slate-500 font-bold flex'>
-                                <AiOutlineSwapRight size={20} className="text-emerald-500 mr-2" />NSWF Channel
+                                <AiOutlineSwapRight size={20} className="text-emerald-500 mr-2" />Coming soon . . .
                             </li>
                         </ul>
                     </div>

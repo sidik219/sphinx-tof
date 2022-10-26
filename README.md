@@ -1,4 +1,4 @@
-# ![logo](https://raw.githubusercontent.com/sidik219/sidik219.github.io/main/images/logo.png) Sacrifice
+# ![logo](./src/assets/logo.png) Sacrifice
 
 ## Recruitment Crew
 
